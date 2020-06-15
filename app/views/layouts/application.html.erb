@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recetas</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <noscript>
+      <header>
+        <h1>Recetas</h1>
+        <p>Esta aplicación requiere un cliente con JavaScript habilitado.</p>
+      </header>
+    </noscript>
+    <div id='app' data-behavior="vue">
+      <%= yield %>
+    </div>
+  </body>
+</html>
