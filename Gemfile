@@ -9,7 +9,7 @@ gem 'bootsnap',
   '>= 1.4.2',
   require: false
 gem 'kaminari',
-  '~> 1.2.0'
+  '~> 1.2.1'
 gem 'puma',
   '~> 4.3'
 gem 'rails',
